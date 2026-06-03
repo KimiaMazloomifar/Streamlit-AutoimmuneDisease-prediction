@@ -26,20 +26,6 @@ The project includes:
 * Probability Calibration
 * Ensemble Learning
 
-### Application
-
-* Streamlit
-* Python
-* Matplotlib
-
-### DevOps & Deployment
-
-* Docker
-* Docker Compose
-* Docker Hub
-* Git
-* GitHub
-
 ---
 
 ## Docker Image
