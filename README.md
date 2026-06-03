@@ -1,43 +1,146 @@
 # Autoimmune Disease Prediction System
 
-A machine learning–based clinical decision support system for predicting autoimmune diseases using laboratory biomarkers, antibody profiles, and patient symptoms.
+A machine learning-based clinical decision support system for predicting autoimmune diseases using laboratory biomarkers, antibody profiles, and patient symptoms.
 
 The project includes:
 
 * Data preprocessing and feature engineering
-* Multiple ML models with hyperparameter tuning
+* Multiple machine learning models with hyperparameter optimization
 * Probability calibration
 * Clinical threshold logic for uncertainty handling
 * PCA dimensionality reduction
 * SHAP explainability
 * Interactive Streamlit web application
+* Dockerized deployment
+* Docker Hub image distribution
 
 ---
 
-# Features
+## Live Technologies
 
-## Machine Learning Models
+### Machine Learning
 
-The system trains and evaluates multiple classifiers:
+* Scikit-Learn
+* PCA
+* SHAP
+* Probability Calibration
+* Ensemble Learning
+
+### Application
+
+* Streamlit
+* Python
+* Matplotlib
+
+### DevOps & Deployment
+
+* Docker
+* Docker Compose
+* Docker Hub
+* Git
+* GitHub
+
+---
+
+## Docker Image
+
+Docker Hub Repository:
+
+https://hub.docker.com/r/kimiamzf/autoimmune-disease-prediction
+
+Pull the latest image:
+
+```bash
+docker pull kimiamzf/autoimmune-disease-prediction:latest
+```
+
+Run the application:
+
+```bash
+docker run -p 8501:8501 kimiamzf/autoimmune-disease-prediction:latest
+```
+
+Open:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## Docker Compose
+
+Run with Docker Compose:
+
+```bash
+docker compose up -d
+```
+
+Stop containers:
+
+```bash
+docker compose down
+```
+
+---
+
+## Project Architecture
+
+```text
+User Input
+     │
+     ▼
+Feature Engineering
+     │
+     ▼
+Imputation
+     │
+     ▼
+Scaling
+     │
+     ▼
+PCA Transformation
+     │
+     ▼
+Machine Learning Model
+     │
+     ▼
+Probability Calibration
+     │
+     ▼
+Clinical Threshold Logic
+     │
+     ▼
+Prediction & Explainability
+     │
+     ▼
+Streamlit Dashboard
+```
+
+---
+
+## Key Features
+
+### Machine Learning Models
 
 * Decision Tree
 * K-Nearest Neighbors (KNN)
 * Random Forest
 * Stacking Ensemble
 
-Each model is additionally calibrated using:
+Each model is calibrated using:
 
-* `CalibratedClassifierCV`
+```python
+CalibratedClassifierCV
+```
 
 ---
 
-## Advanced Feature Engineering
+### Advanced Feature Engineering
 
-The pipeline automatically creates engineered features such as:
+#### Symptom Count
 
-### Symptom Count
-
-Combines multiple symptom indicators into a single score:
+Generated from:
 
 * Low-grade fever
 * Fatigue or chronic tiredness
@@ -46,11 +149,9 @@ Combines multiple symptom indicators into a single score:
 * Dry eyes and/or mouth
 * General unwell feeling
 
----
+#### Autoantibody Correlation Feature
 
-### Autoantibody Correlation Feature
-
-Combines important antibody markers:
+Generated from:
 
 * Anti_dsDNA
 * Anti_RNP
@@ -58,74 +159,38 @@ Combines important antibody markers:
 * Anti_La_SSB
 * Anti_Sm
 
----
+#### PCA Biomarker Feature
 
-### PCA Combined Biomarker Feature
-
-A PCA-generated feature based on:
+Generated using:
 
 * CRP
 * ESR
 * ANA
-* Sickness Duration
+* Sickness Duration Months
 
 ---
 
-## Probability Calibration
+### Explainable AI
 
-Model probabilities are calibrated using sigmoid calibration to improve clinical confidence estimation.
-
----
-
-## Clinical Decision Thresholds
-
-The project introduces medical-style confidence thresholds:
-
-| Condition               | Interpretation                    |
-| ----------------------- | --------------------------------- |
-| High Normal Probability | Likely healthy                    |
-| Medium Probability      | Uncertain / follow-up recommended |
-| Low Normal Probability  | Non-normal likely                 |
-
-This improves safety and interpretability in clinical environments.
-
----
-
-## SHAP Explainability
-
-The application supports SHAP-based explainability:
+SHAP-based explanations provide:
 
 * Waterfall plots
 * PCA contribution analysis
-* Original feature mapping from principal components
+* Principal component interpretation
+* Original feature mapping
 
 ---
 
-# Tech Stack
-
-## Backend / ML
-
-* Python
-* NumPy
-* Pandas
-* Scikit-learn
-* SHAP
-* Joblib
-
-## Frontend
-
-* Streamlit
-* Matplotlib
-
----
-
-# Project Structure
+## Project Structure
 
 ```bash
 .
-├── Autoimmune_Dataset.csv
-├── train.py
 ├── app.py
+├── train.py
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── Autoimmune_Dataset.csv
 │
 ├── model_rf_calibrated.pkl
 ├── model_knn_calibrated.pkl
@@ -152,87 +217,23 @@ The application supports SHAP-based explainability:
 
 ---
 
-# Installation
+## Installation
 
-## 1. Clone Repository
-
-```bash
-git clone <your-repository-url>
-cd <repository-name>
-```
-
----
-
-## 2. Create Virtual Environment
-
-### Windows
+### Clone Repository
 
 ```bash
-python -m venv venv
-venv\Scripts\activate
+git clone https://github.com/KimiaMazloomifar/Streamlit-AutoimmuneDisease-prediction.git
+
+cd Streamlit-AutoimmuneDisease-prediction
 ```
 
-### Linux / macOS
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
----
-
-## 3. Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-# Required Libraries
-
-```txt
-numpy
-pandas
-scikit-learn
-matplotlib
-streamlit
-joblib
-shap
-```
-
----
-
-# Training the Models
-
-Run:
-
-```bash
-python train.py
-```
-
-This will:
-
-* preprocess the dataset
-* engineer features
-* train all models
-* calibrate probabilities
-* generate PCA artifacts
-* save trained models
-* save SHAP resources
-* save threshold configurations
-
-Generated artifacts:
-
-```bash
-*.pkl
-*.json
-*.npy
-```
-
----
-
-# Running the Streamlit App
+### Run Streamlit
 
 ```bash
 streamlit run app.py
@@ -240,172 +241,37 @@ streamlit run app.py
 
 ---
 
-# Streamlit Application Features
+## Training
 
-## Model Selection
+Train and generate all artifacts:
 
-Users can switch between:
-
-* Stacking
-* RandomForest
-* KNN
-* DecisionTree
-
----
-
-## Manual Patient Input
-
-Users can enter:
-
-* biomarker values
-* antibody values
-* symptoms
-* laboratory measurements
-
-Unknown values can be left empty.
-
----
-
-## Random Dataset Testing
-
-The app can load a random patient sample from the dataset for quick testing.
-
----
-
-## Probability Visualization
-
-Displays:
-
-* top prediction
-* second prediction
-* class probabilities
-* prediction margins
-
----
-
-## Clinical Confidence Interpretation
-
-The app automatically classifies predictions into:
-
-### High Confidence Normal
-
-Healthy prediction with strong confidence.
-
-### Uncertain
-
-Possible overlap between healthy and disease classes.
-
-### Non-Normal Likely
-
-Suggests further medical evaluation.
-
----
-
-## SHAP Explainability Dashboard
-
-Optional SHAP explanations include:
-
-* PCA-level contribution plots
-* Waterfall visualizations
-* Principal component interpretation
-* Original feature contribution mapping
-
----
-
-# Machine Learning Pipeline
-
-## Data Preprocessing
-
-* Missing value imputation
-* MinMax scaling
-* PCA dimensionality reduction
-
----
-
-## Hyperparameter Optimization
-
-### Decision Tree
-
-Uses:
-
-```python
-GridSearchCV
+```bash
+python Autoimmune_Disease.py
 ```
 
-### KNN
+Generated artifacts:
 
-Uses:
-
-```python
-GridSearchCV
-```
-
-### Random Forest
-
-Uses:
-
-```python
-RandomizedSearchCV
+```text
+*.pkl
+*.json
+*.npy
 ```
 
 ---
 
-## Ensemble Learning
+## Clinical Safety Logic
 
-Final ensemble uses:
+The system evaluates:
 
-```python
-StackingClassifier
-```
+* Predicted disease probabilities
+* Normal-class confidence
+* Confidence margins
+* Clinical uncertainty thresholds
 
-with:
-
-```python
-LogisticRegression
-```
-
-as the meta-classifier.
+This reduces overconfident predictions and improves interpretability.
 
 ---
 
-# Explainability
-
-The system uses SHAP for interpretable AI.
-
-Because PCA is applied before prediction:
-
-1. SHAP explains PCA components
-2. PCA components are mapped back to original features
-3. The app shows influential biomarkers contributing to predictions
-
----
-
-# Clinical Safety Logic
-
-The system does not rely only on the highest predicted class.
-
-It additionally evaluates:
-
-* probability of the Normal class
-* confidence margins
-* ambiguity between classes
-
-This reduces overconfident predictions and improves uncertainty handling.
-
----
-
-# Example Workflow
-
-1. User enters patient biomarkers
-2. Data preprocessing is applied
-3. Engineered features are generated
-4. PCA transformation occurs
-5. Selected model predicts disease probabilities
-6. Clinical thresholds interpret prediction confidence
-7. SHAP explains the prediction
-
----
-
-# Author
+## Author
 
 Kimia Mazloomifar
