@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# Import necessary libraries:
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -431,7 +429,7 @@ except Exception as e:
 with open("pca_pc_to_features.json", "w", encoding="utf-8") as f:
     json.dump(pc_to_features, f, indent=2, ensure_ascii=False)
 print("Saved pca_pc_to_features.json")
-=======
+
 import numpy as np
 import pandas as pd
 import warnings
@@ -990,4 +988,3 @@ with open("pca_pc_to_features.json", "w", encoding="utf-8") as f:
     json.dump(pc_to_features, f, indent=2, ensure_ascii=False)
 
 
->>>>>>> 6197af6c7c63ded30582c07ccfa7a40eb1678d92

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -717,7 +716,7 @@ if st.button("Predict", use_container_width=True):
                     #             st.dataframe(hint_df, use_container_width=True)
 
 st.markdown("---")
-=======
+
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -1441,4 +1440,4 @@ if st.button("Predict", use_container_width=True):
                     #             st.dataframe(hint_df, use_container_width=True)
 
 st.markdown("---")
->>>>>>> 6197af6c7c63ded30582c07ccfa7a40eb1678d92
+
