@@ -1,0 +1,852 @@
+{
+  "PC1": [
+    {
+      "feature": "ACPA",
+      "loading": 0.6558470602669996
+    },
+    {
+      "feature": "Anti-dsDNA",
+      "loading": 0.5351888913356214
+    },
+    {
+      "feature": "Anti-Sm",
+      "loading": 0.4518022817662004
+    },
+    {
+      "feature": "Symptom_Count",
+      "loading": 0.179195807359448
+    },
+    {
+      "feature": "Combined_Feature_PCA",
+      "loading": 0.10287105229443681
+    },
+    {
+      "feature": "anti_Scl_70",
+      "loading": -0.044650473578932266
+    },
+    {
+      "feature": "Anti_tissue_transglutaminase",
+      "loading": -0.040365613335563114
+    },
+    {
+      "feature": "Anti_SRP",
+      "loading": -0.04018494663989662
+    }
+  ],
+  "PC2": [
+    {
+      "feature": "Anti-Sm",
+      "loading": 0.8052080978002486
+    },
+    {
+      "feature": "Anti-dsDNA",
+      "loading": -0.5788540339145578
+    },
+    {
+      "feature": "ACPA",
+      "loading": -0.10512472079475649
+    },
+    {
+      "feature": "Symptom_Count",
+      "loading": 0.0367228950782152
+    },
+    {
+      "feature": "Reticulocyte_Count",
+      "loading": 0.03411698631133642
+    },
+    {
+      "feature": "Combined_Feature_PCA",
+      "loading": 0.032286538376385884
+    },
+    {
+      "feature": "Esbach",
+      "loading": 0.019727260497412965
+    },
+    {
+      "feature": "Monocytes",
+      "loading": -0.015616355909460257
+    }
+  ],
+  "PC3": [
+    {
+      "feature": "ACPA",
+      "loading": 0.7297027687166461
+    },
+    {
+      "feature": "Anti-dsDNA",
+      "loading": -0.5952155782645547
+    },
+    {
+      "feature": "Anti-Sm",
+      "loading": -0.3307964936396797
+    },
+    {
+      "feature": "Eosinophils",
+      "loading": -0.0255634841421406
+    },
+    {
+      "feature": "Reticulocyte_Count",
+      "loading": 0.025003913422482593
+    },
+    {
+      "feature": "Symptom_Count",
+      "loading": -0.023048537156061213
+    },
+    {
+      "feature": "RDW",
+      "loading": -0.019917725505070275
+    },
+    {
+      "feature": "Combined_Feature_PCA",
+      "loading": -0.017478683289415334
+    }
+  ],
+  "PC4": [
+    {
+      "feature": "Symptom_Count",
+      "loading": 0.7247003355537699
+    },
+    {
+      "feature": "Combined_Feature_PCA",
+      "loading": 0.3017976574284091
+    },
+    {
+      "feature": "Esbach",
+      "loading": 0.20542360136818982
+    },
+    {
+      "feature": "Eosinophils",
+      "loading": 0.19542464092234516
+    },
+    {
+      "feature": "Anti-Sm",
+      "loading": -0.18424790413345282
+    },
+    {
+      "feature": "Monocytes",
+      "loading": 0.16270163231455076
+    },
+    {
+      "feature": "ACPA",
+      "loading": -0.14990633645797796
+    },
+    {
+      "feature": "Anti-dsDNA",
+      "loading": -0.13253165973894881
+    }
+  ],
+  "PC5": [
+    {
+      "feature": "Esbach",
+      "loading": 0.8999001445868426
+    },
+    {
+      "feature": "Monocytes",
+      "loading": 0.3047809746542121
+    },
+    {
+      "feature": "Symptom_Count",
+      "loading": -0.20719678636703653
+    },
+    {
+      "feature": "Combined_Feature_PCA",
+      "loading": -0.187143718752333
+    },
+    {
+      "feature": "Neutrophils",
+      "loading": 0.06580811940540726
+    },
+    {
+      "feature": "RDW",
+      "loading": 0.062416022124346264
+    },
+    {
+      "feature": "WBC_Count",
+      "loading": -0.04555239473168075
+    },
+    {
+      "feature": "MPV",
+      "loading": -0.03793840645084887
+    }
+  ],
+  "PC6": [
+    {
+      "feature": "Eosinophils",
+      "loading": 0.7811806792125496
+    },
+    {
+      "feature": "Monocytes",
+      "loading": -0.5249542719376755
+    },
+    {
+      "feature": "Symptom_Count",
+      "loading": -0.18895973033860455
+    },
+    {
+      "feature": "Reticulocyte_Count",
+      "loading": 0.16687590503284655
+    },
+    {
+      "feature": "Esbach",
+      "loading": 0.1476890914953809
+    },
+    {
+      "feature": "WBC_Count",
+      "loading": -0.0990534467216124
+    },
+    {
+      "feature": "Combined_Feature_PCA",
+      "loading": 0.06388354206387094
+    },
+    {
+      "feature": "Basophils",
+      "loading": 0.04906206820812813
+    }
+  ],
+  "PC7": [
+    {
+      "feature": "Monocytes",
+      "loading": 0.6362687497347678
+    },
+    {
+      "feature": "Eosinophils",
+      "loading": 0.49888697033104307
+    },
+    {
+      "feature": "Combined_Feature_PCA",
+      "loading": -0.41708796040612056
+    },
+    {
+      "feature": "Esbach",
+      "loading": -0.3032733963626714
+    },
+    {
+      "feature": "WBC_Count",
+      "loading": 0.1951085993900903
+    },
+    {
+      "feature": "Reticulocyte_Count",
+      "loading": 0.14434049653511993
+    },
+    {
+      "feature": "Neutrophils",
+      "loading": 0.07087501617453854
+    },
+    {
+      "feature": "Basophils",
+      "loading": 0.05084237418656709
+    }
+  ],
+  "PC8": [
+    {
+      "feature": "Combined_Feature_PCA",
+      "loading": 0.7175734864172565
+    },
+    {
+      "feature": "Reticulocyte_Count",
+      "loading": -0.3954582160756435
+    },
+    {
+      "feature": "Monocytes",
+      "loading": 0.36763057266966426
+    },
+    {
+      "feature": "Symptom_Count",
+      "loading": -0.3128387818994889
+    },
+    {
+      "feature": "Eosinophils",
+      "loading": 0.2029676694500205
+    },
+    {
+      "feature": "Basophils",
+      "loading": -0.09956690129109333
+    },
+    {
+      "feature": "Neutrophils",
+      "loading": 0.08167042317135276
+    },
+    {
+      "feature": "WBC_Count",
+      "loading": -0.08107749772587013
+    }
+  ],
+  "PC9": [
+    {
+      "feature": "Reticulocyte_Count",
+      "loading": 0.708126307093321
+    },
+    {
+      "feature": "Symptom_Count",
+      "loading": -0.37566093670411216
+    },
+    {
+      "feature": "Combined_Feature_PCA",
+      "loading": 0.3296607420874154
+    },
+    {
+      "feature": "WBC_Count",
+      "loading": 0.267190928496511
+    },
+    {
+      "feature": "Eosinophils",
+      "loading": -0.19308580251210852
+    },
+    {
+      "feature": "Basophils",
+      "loading": 0.15487724322130675
+    },
+    {
+      "feature": "ASCA",
+      "loading": -0.1389579112726985
+    },
+    {
+      "feature": "ANCA",
+      "loading": -0.11882825396904906
+    }
+  ],
+  "PC10": [
+    {
+      "feature": "Neutrophils",
+      "loading": 0.6210519857573403
+    },
+    {
+      "feature": "RDW",
+      "loading": -0.4777140095786315
+    },
+    {
+      "feature": "WBC_Count",
+      "loading": 0.38440197547827465
+    },
+    {
+      "feature": "Reticulocyte_Count",
+      "loading": -0.21156602824884238
+    },
+    {
+      "feature": "anti_Scl_70",
+      "loading": -0.17792070372996394
+    },
+    {
+      "feature": "Anti_BP230",
+      "loading": -0.13459840842213078
+    },
+    {
+      "feature": "anti_centromere",
+      "loading": -0.13252734454547166
+    },
+    {
+      "feature": "Monocytes",
+      "loading": -0.13207614564620648
+    }
+  ],
+  "PC11": [
+    {
+      "feature": "RDW",
+      "loading": 0.7512991876676305
+    },
+    {
+      "feature": "Reticulocyte_Count",
+      "loading": -0.2520967381673647
+    },
+    {
+      "feature": "ASCA",
+      "loading": -0.18578241387491792
+    },
+    {
+      "feature": "Symptom_Count",
+      "loading": -0.17919892350941796
+    },
+    {
+      "feature": "Combined_Feature_PCA",
+      "loading": -0.16556882256270966
+    },
+    {
+      "feature": "Anti_Jo1",
+      "loading": -0.16556864879341734
+    },
+    {
+      "feature": "Anti_OmpC",
+      "loading": -0.16076559607945926
+    },
+    {
+      "feature": "anti_Scl_70",
+      "loading": -0.15566351467298345
+    }
+  ],
+  "PC12": [
+    {
+      "feature": "WBC_Count",
+      "loading": 0.7768740568370687
+    },
+    {
+      "feature": "ASCA",
+      "loading": 0.2551387496062468
+    },
+    {
+      "feature": "RDW",
+      "loading": 0.24232021425253764
+    },
+    {
+      "feature": "Anti_CBir1",
+      "loading": 0.21589734965172339
+    },
+    {
+      "feature": "Anti_OmpC",
+      "loading": 0.20778870538740568
+    },
+    {
+      "feature": "ANCA",
+      "loading": 0.20456950895946133
+    },
+    {
+      "feature": "Monocytes",
+      "loading": -0.15363886948719543
+    },
+    {
+      "feature": "anti_Scl_70",
+      "loading": 0.11743793469488445
+    }
+  ],
+  "PC13": [
+    {
+      "feature": "Neutrophils",
+      "loading": 0.6267028995329716
+    },
+    {
+      "feature": "ASCA",
+      "loading": 0.3316523547474935
+    },
+    {
+      "feature": "WBC_Count",
+      "loading": -0.30163339940564926
+    },
+    {
+      "feature": "ANCA",
+      "loading": 0.2708393266270962
+    },
+    {
+      "feature": "Reticulocyte_Count",
+      "loading": 0.2622280899293847
+    },
+    {
+      "feature": "Anti_OmpC",
+      "loading": 0.26219068823167396
+    },
+    {
+      "feature": "Anti_CBir1",
+      "loading": 0.2516842998332804
+    },
+    {
+      "feature": "RDW",
+      "loading": 0.24711012106750874
+    }
+  ],
+  "PC14": [
+    {
+      "feature": "Basophils",
+      "loading": 0.36542496911730193
+    },
+    {
+      "feature": "Anti_BP230",
+      "loading": -0.3398454767876173
+    },
+    {
+      "feature": "Neutrophils",
+      "loading": -0.31538657221932026
+    },
+    {
+      "feature": "Anti_BP180",
+      "loading": -0.31391442214373216
+    },
+    {
+      "feature": "Anti_SRP",
+      "loading": -0.2629469962675513
+    },
+    {
+      "feature": "ASCA",
+      "loading": 0.24584822031402254
+    },
+    {
+      "feature": "Anti_Jo1",
+      "loading": -0.23402492147631082
+    },
+    {
+      "feature": "anti_Scl_70",
+      "loading": -0.23142554298749465
+    }
+  ],
+  "PC15": [
+    {
+      "feature": "Basophils",
+      "loading": 0.8775491288927418
+    },
+    {
+      "feature": "Reticulocyte_Count",
+      "loading": -0.25465941293645233
+    },
+    {
+      "feature": "anti_Scl_70",
+      "loading": 0.14214263109747088
+    },
+    {
+      "feature": "Anti_BP180",
+      "loading": 0.1417529993289811
+    },
+    {
+      "feature": "Anti_BP230",
+      "loading": 0.13643609853479027
+    },
+    {
+      "feature": "anti_centromere",
+      "loading": 0.13488945654939236
+    },
+    {
+      "feature": "Anti_Jo1",
+      "loading": 0.11574024083194061
+    },
+    {
+      "feature": "Anti_SRP",
+      "loading": 0.1152733793542564
+    }
+  ],
+  "PC16": [
+    {
+      "feature": "Anti_BP230",
+      "loading": 0.5636264553619958
+    },
+    {
+      "feature": "Anti_BP180",
+      "loading": 0.43671808196153716
+    },
+    {
+      "feature": "anti_Scl_70",
+      "loading": -0.30032745139217193
+    },
+    {
+      "feature": "Anti_Jo1",
+      "loading": -0.21905417689099685
+    },
+    {
+      "feature": "C1_inhibitor",
+      "loading": 0.2161873806695797
+    },
+    {
+      "feature": "MPV",
+      "loading": -0.21525490871983446
+    },
+    {
+      "feature": "anti_centromere",
+      "loading": -0.2132540772668326
+    },
+    {
+      "feature": "Anti_Mi2",
+      "loading": -0.2117079125689128
+    }
+  ],
+  "PC17": [
+    {
+      "feature": "anti_centromere",
+      "loading": 0.3968036129753583
+    },
+    {
+      "feature": "anti_Scl_70",
+      "loading": 0.37260164474667784
+    },
+    {
+      "feature": "Anti_SRP",
+      "loading": -0.36969198873675657
+    },
+    {
+      "feature": "Anti_Jo1",
+      "loading": -0.35881680408639416
+    },
+    {
+      "feature": "Anti_Mi2",
+      "loading": -0.2885216986668452
+    },
+    {
+      "feature": "Anti_TIF1",
+      "loading": -0.280278439622502
+    },
+    {
+      "feature": "DGP",
+      "loading": 0.2488669605082372
+    },
+    {
+      "feature": "Neutrophils",
+      "loading": 0.223460525388832
+    }
+  ],
+  "PC18": [
+    {
+      "feature": "Anti_tissue_transglutaminase",
+      "loading": 0.7497778468457804
+    },
+    {
+      "feature": "anti_Scl_70",
+      "loading": -0.3071414663773445
+    },
+    {
+      "feature": "C1_inhibitor",
+      "loading": 0.30379804026061275
+    },
+    {
+      "feature": "EMA",
+      "loading": 0.1994974185815316
+    },
+    {
+      "feature": "Anti_BP180",
+      "loading": -0.17859179124765648
+    },
+    {
+      "feature": "DGP",
+      "loading": 0.16726036434877725
+    },
+    {
+      "feature": "Anti_IF",
+      "loading": 0.1508886884270529
+    },
+    {
+      "feature": "MPV",
+      "loading": -0.13055300965625877
+    }
+  ],
+  "PC19": [
+    {
+      "feature": "MPV",
+      "loading": 0.8971856624380398
+    },
+    {
+      "feature": "C1_inhibitor",
+      "loading": 0.22866500837359716
+    },
+    {
+      "feature": "Anti_type_VII_collagen",
+      "loading": 0.1551194625712389
+    },
+    {
+      "feature": "anti_LKM1",
+      "loading": 0.1291414194273542
+    },
+    {
+      "feature": "Anti_BP230",
+      "loading": 0.11114648768081672
+    },
+    {
+      "feature": "Anti_SRP",
+      "loading": 0.10486137072936053
+    },
+    {
+      "feature": "Anti_IF",
+      "loading": 0.09751021637068678
+    },
+    {
+      "feature": "ASCA",
+      "loading": 0.08810285904355279
+    }
+  ],
+  "PC20": [
+    {
+      "feature": "Anti_enterocyte_antibodies",
+      "loading": 0.4664604113205021
+    },
+    {
+      "feature": "C1_inhibitor",
+      "loading": -0.37944655370989044
+    },
+    {
+      "feature": "Anti_parietal_cell",
+      "loading": 0.3747463408427093
+    },
+    {
+      "feature": "anti_LKM1",
+      "loading": -0.3160784668088179
+    },
+    {
+      "feature": "Anti_epidermal_basement_membrane_IgA",
+      "loading": -0.2892431068711903
+    },
+    {
+      "feature": "Anti_tissue_transglutaminase",
+      "loading": 0.23663455263579894
+    },
+    {
+      "feature": "Anti_type_VII_collagen",
+      "loading": 0.2150873453179301
+    },
+    {
+      "feature": "Anti_desmoglein_1",
+      "loading": 0.1912278598754349
+    }
+  ],
+  "PC21": [
+    {
+      "feature": "C1_inhibitor",
+      "loading": 0.34802292996870354
+    },
+    {
+      "feature": "anti_Scl_70",
+      "loading": 0.34659864553087
+    },
+    {
+      "feature": "Anti_IF",
+      "loading": 0.3405989835741873
+    },
+    {
+      "feature": "anti_LKM1",
+      "loading": 0.32360330279995525
+    },
+    {
+      "feature": "Anti_enterocyte_antibodies",
+      "loading": 0.2779555770580814
+    },
+    {
+      "feature": "Anti_parietal_cell",
+      "loading": 0.25108042947891057
+    },
+    {
+      "feature": "Anti_type_VII_collagen",
+      "loading": 0.24280045426650534
+    },
+    {
+      "feature": "ASMA",
+      "loading": 0.21898783143229947
+    }
+  ],
+  "PC22": [
+    {
+      "feature": "C1_inhibitor",
+      "loading": 0.40441444015470585
+    },
+    {
+      "feature": "anti_LKM1",
+      "loading": -0.35209851740155457
+    },
+    {
+      "feature": "Anti_parietal_cell",
+      "loading": -0.3472142697060398
+    },
+    {
+      "feature": "Anti_type_VII_collagen",
+      "loading": 0.2929657896164644
+    },
+    {
+      "feature": "Anti_SRP",
+      "loading": 0.2644879196192637
+    },
+    {
+      "feature": "Anti_enterocyte_antibodies",
+      "loading": 0.22373751195299194
+    },
+    {
+      "feature": "ASMA",
+      "loading": -0.21336583955789026
+    },
+    {
+      "feature": "Anti_TIF1",
+      "loading": -0.20768361786064388
+    }
+  ],
+  "PC23": [
+    {
+      "feature": "Anti_desmoglein_1",
+      "loading": 0.49082228202870953
+    },
+    {
+      "feature": "Anti_type_VII_collagen",
+      "loading": -0.3258653489743054
+    },
+    {
+      "feature": "anti_Scl_70",
+      "loading": -0.26888112289212923
+    },
+    {
+      "feature": "Anti_enterocyte_antibodies",
+      "loading": 0.23792524851551675
+    },
+    {
+      "feature": "Anti_BP180",
+      "loading": 0.2352909567406955
+    },
+    {
+      "feature": "Anti_parietal_cell",
+      "loading": -0.22812890346317985
+    },
+    {
+      "feature": "anti_centromere",
+      "loading": 0.218615600109049
+    },
+    {
+      "feature": "Anti_epidermal_basement_membrane_IgA",
+      "loading": -0.21083667985457516
+    }
+  ],
+  "PC24": [
+    {
+      "feature": "Anti_epidermal_basement_membrane_IgA",
+      "loading": 0.5664991202079668
+    },
+    {
+      "feature": "Anti_IF",
+      "loading": 0.4274190892483325
+    },
+    {
+      "feature": "DGP",
+      "loading": 0.2821551407280852
+    },
+    {
+      "feature": "Anti_parietal_cell",
+      "loading": 0.2524797244252102
+    },
+    {
+      "feature": "Anti_Mi2",
+      "loading": 0.23278510433119237
+    },
+    {
+      "feature": "anti_Scl_70",
+      "loading": -0.19490050607765222
+    },
+    {
+      "feature": "Anti_SRP",
+      "loading": -0.19124072415029356
+    },
+    {
+      "feature": "Anti_enterocyte_antibodies",
+      "loading": 0.17695694320167324
+    }
+  ],
+  "PC25": [
+    {
+      "feature": "anti_LKM1",
+      "loading": 0.5335608290474657
+    },
+    {
+      "feature": "Anti_CBir1",
+      "loading": -0.4221996889663923
+    },
+    {
+      "feature": "ASCA",
+      "loading": 0.35489072327236165
+    },
+    {
+      "feature": "C1_inhibitor",
+      "loading": -0.2867073118929997
+    },
+    {
+      "feature": "ANCA",
+      "loading": -0.2356203338053963
+    },
+    {
+      "feature": "Anti_Mi2",
+      "loading": -0.1784944741836092
+    },
+    {
+      "feature": "Anti_epidermal_basement_membrane_IgA",
+      "loading": 0.1779862442904711
+    },
+    {
+      "feature": "Anti_IF",
+      "loading": -0.17610153299432618
+    }
+  ]
+}
